@@ -1,5 +1,5 @@
-<?php if (isset($_SESSION["mem_email"])) { ?>
-	<h3><?=$_SESSION["mem_email"]?></h3>
+<?php if (isset($_SESSION["email"])) { ?>
+	<h3><?=$_SESSION["email"]?></h3>
 	<a href="./process.php?mode=sign_out">sign out</a>
 <?php } else { ?>
 	<form action="./process.php?mode=sign_in" method="POST" id="login-form">
