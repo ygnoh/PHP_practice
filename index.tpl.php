@@ -22,3 +22,7 @@
 		</tr>
 	</table>
 </form>
+
+<?php
+	include "index.js"
+?>
