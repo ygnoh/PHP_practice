@@ -7,9 +7,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
-	<?php
-		include "db_info.php";
-		include $tpl;
-	?>
+	<div class="container">
+		<?php
+			include "db_info.php";
+			include $tpl;
+		?>
+	</div>
 </body>
 </html>
