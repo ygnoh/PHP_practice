@@ -4,7 +4,9 @@
 	<meta charset="utf-8">
 </head>
 <body>
-	<h1>TEMPLATE</h1>
-	<?php include $tpl ?>
+	<?php
+		include "db_info.php";
+		include $tpl;
+	?>
 </body>
 </html>
