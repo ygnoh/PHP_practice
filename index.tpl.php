@@ -7,8 +7,8 @@
 			<tr>
 				<div class="radio">
 					<th></th>
-					<th><label><input type="radio" name="user-type" value="customer" checked> 고객</label></th>
-					<th><label><input type="radio" name="user-type" value="company"> 직원</label></th>
+					<th><label><input type="radio" name="user-type" value="member" checked> 고객</label></th>
+					<th><label><input type="radio" name="user-type" value="manager"> 직원</label></th>
 				</div>
 			</tr>
 			<tr>
@@ -21,8 +21,8 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><a href="#">회원가입</a></td>
-				<td><a href="#" id="sign-in" onclick="document.getElementById('login-form').submit()">로그인</a></td>
+				<td><a href="/sign_up.php">회원가입</a></td>
+				<td><a href="#" onclick="document.getElementById('login-form').submit()">로그인</a></td>
 			</tr>
 		</table>
 	</form>

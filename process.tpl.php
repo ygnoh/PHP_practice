@@ -13,5 +13,14 @@
 			header('Location: /');
 			exit;
 			break;
+		case 'sign_up':
+			if ($_POST['user-type'] == 'member') {
+				mysql_query("insert into member values ('".$_POST['license']."','".$_POST['name']."','".$_POST['phone']."','".$_POST['address']."','".$_POST['email']."','".$_POST['password']."')");
+			} else {
+			}
+			$_SESSION["mem_email"] = $_POST["email"];
+			header('Location: /');
+			exit;
+			break;
 	}
 ?>
