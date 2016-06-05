@@ -1,4 +1,4 @@
 <?php
-$tpl = "sign_in.tpl.php";
+$tpl = "process.tpl.php";
 include "template.php";
 ?>

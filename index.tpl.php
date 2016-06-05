@@ -1,7 +1,8 @@
 <?php if (isset($_SESSION["mem_email"])) { ?>
-	<h1>login-ed</h1>
+	<h3><?=$_SESSION["mem_email"]?></h3>
+	<a href="./process.php?mode=sign_out">sign out</a>
 <?php } else { ?>
-	<form action="./sign_in.php" method="POST" id="login-form">
+	<form action="./process.php?mode=sign_in" method="POST" id="login-form">
 		<table>
 			<tr>
 				<div class="radio">
